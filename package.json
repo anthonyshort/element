@@ -13,8 +13,8 @@
     "standard": "^3.6.1"
   },
   "dependencies": {
-    "array-flatten": "^1.1.1",
-    "sliced": "0.0.5"
+    "array-flatten": "^2.0.0",
+    "sliced": "1.0.1"
   },
   "scripts": {
     "build": "mkdir -p build && browserify -s virtual-element -e index.js | bfc > build/virtual-element.js",
